@@ -81,7 +81,7 @@ const submitHandler = async (e) => {
     }
     else{
         const err=await response.text();
-        messageDiv.innerHTML="Sorry, Something went wrong. Please try again :("
+        messageDiv.innerHTML="Sorry, Something went wrong. Please try again - Too much requests in 1 hour"
         console.log(err)
         
     }
