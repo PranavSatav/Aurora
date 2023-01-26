@@ -62,7 +62,7 @@ const submitHandler = async (e) => {
     loader(messageDiv)
 
 
-    const response=await fetch("https://aurora-w2ae.onrender.com/",{
+    const response=await fetch("https://messi-x.onrender.com/",{
         method:'POST',
         headers:{
             "Content-Type":"application/json"
@@ -81,7 +81,7 @@ const submitHandler = async (e) => {
     }
     else{
         const err=await response.text();
-        messageDiv.innerHTML="Sorry,Something went wrong.Please try again :("
+        messageDiv.innerHTML="Sorry, Something went wrong. Please try again :("
         console.log(err)
         
     }
