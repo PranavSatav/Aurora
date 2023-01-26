@@ -54,7 +54,7 @@ const submitHandler = async (e) => {
   chatContainer.innerHTML += chatStripe(false, data.get("prompt"));
   form.reset();
 
-  //Ai chatStripe
+  //Ai chatStripes
   const UniqueId = generateUniqueId();
   chatContainer.innerHTML += chatStripe(true, " ", UniqueId);
   chatContainer.scrollTop = chatContainer.scrollHeight;
@@ -62,7 +62,7 @@ const submitHandler = async (e) => {
     loader(messageDiv)
 
 
-    const response=await fetch("https://messi-x.onrender.com/",{
+    const response=await fetch("https://aurora-w2ae.onrender.com/",{
         method:'POST',
         headers:{
             "Content-Type":"application/json"
