@@ -13,7 +13,7 @@
   width: 100%;
   height: 100vh;
   background: #343541;
-
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,7 +43,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
-/* hides scrollbar */
+
 #chat_container::-webkit-scrollbar {
   display: none;
 }
@@ -55,7 +55,7 @@
 
 .ai {
   background: #8479bd6b;
-  border-radius: 50px;
+  border-radius: 25px;
 }
 
 .chat {
@@ -88,9 +88,9 @@
 
 .profile img {
   /*width: 100%;*/
-  height: 135%;
-  border-radius: 50px;
-  object-fit: contain;
+  /*height: 135%;*/
+  border-radius: 130px;
+  /*object-fit: contain;*/
 }
 
 .message {
@@ -121,11 +121,11 @@
 }
 
 form {
-  width: 70%;
+  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10px;
-  margin-bottom:20px;
+  padding: 0px;
+  margin-bottom:0px;
   background: #40414F;
   border-radius: 10px;
  
@@ -140,7 +140,7 @@ textarea {
   color: #fff;
   font-size: 18px;
   padding: 0 10px 0 29px;
-  padding-top:15px;
+  padding-top:25px;
   background: transparent;
   border-radius: 5px;
   border: none;
