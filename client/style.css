@@ -229,8 +229,3 @@ form img {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .typing-container {
-    font-size: 1.5rem;
-  }
-}
