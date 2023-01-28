@@ -206,7 +206,7 @@ form img {
   display: flex;
   
   color: black;
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .typing-text {
@@ -215,7 +215,7 @@ form img {
 }
 
 .typing-text::after {
-  content: "|";
+  content: "";
   animation: blink 1s step-end infinite;
 }
 
