@@ -210,7 +210,8 @@ form img {
 }
 
 .typing-text {
-  color: black;
+  
+  color: var(--secondary-color);
 }
 
 .typing-text::after {
