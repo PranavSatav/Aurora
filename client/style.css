@@ -197,3 +197,40 @@ form img {
   height: 30px;
   margin-right:25px;
 }
+
+
+
+.typing-container {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  
+  color: black;
+  font-size: 2rem;
+}
+
+.typing-text {
+  color: black;
+}
+
+.typing-text::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .typing-container {
+    font-size: 1.5rem;
+  }
+}

@@ -467,6 +467,13 @@ button, a {
   color: var(--secondary-color);
   opacity: 0.7;
 }
+.message-line1 {
+  font-size: 20px;
+  line-height: 20px;
+  margin: 8px 0;
+  color: var(--secondary-color);
+  
+}
 .message-line.time {
   text-align: right;
   margin-bottom: 0;
